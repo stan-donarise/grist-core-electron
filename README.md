@@ -1,3 +1,13 @@
+## Grist as standalone electron app
+
+Python and sqlite are embedded. It just starts Grist server and load provided url in Electron app. So far only for Windows.
+
+Distribution: https://github.com/stan-donarise/grist-core-electron/releases/tag/0.0.0
+
+For win7 you must have: SP1, Microsoft Visual C++ 2015 Redistributable, kb2533623 update
+
+For build from source you should download Winpython https://sourceforge.net/projects/winpython/files/WinPython_3.9/3.9.5.0/, extract it, and put all content from "WPy32-3950/python-3.9.5" to "/winpython" (and for win7 support: put "api-ms-win-core-path-l1-1-0.dll" in "/winpython").
+
 # Grist
 
 Grist is a modern relational spreadsheet. It combines the flexibility of a spreadsheet with the
