@@ -15,6 +15,7 @@ const debugging = isAffirmative(process.env.DEBUG) || isAffirmative(process.env.
 setDefaultEnv('TYPEORM_DATABASE', path.resolve(places.getUnpackedAppRoot(), 'landing.db'));
 setDefaultEnv('GRIST_SANDBOX', path.resolve(places.getUnpackedAppRoot(),'sandbox_venv3/Scripts/python.exe'));
 setDefaultEnv('GRIST_SANDBOX_FLAVOR', 'unsandboxed');
+setDefaultEnv('GRIST_HOST', 'localhost');
 
 // Set log levels before importing anything.
 if (!debugging) {

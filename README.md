@@ -1,6 +1,6 @@
 ## Grist as standalone electron app
 
-Python and sqlite are embedded. It just starts Grist server and load provided url in Electron app. So far only for Windows.
+Python and sqlite are embedded. It just starts Grist server and loads provided url in Electron app. So far only for Windows.
 
 Distribution: https://github.com/stan-donarise/grist-core-electron/releases/tag/0.0.0
 
